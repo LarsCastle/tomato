@@ -1,0 +1,34 @@
+/* general styling */
+#controls > .row {
+  margin-top: 20px;
+}
+
+.configurator {
+  width: 100%;
+  padding: 0px 10px;
+}
+.configurator button {
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+.configurator span {
+  text-align: center;
+}
+
+/* controls */
+#work_minus, #work_plus {
+  border-width: 1px;
+  border-radius: 3em;
+  height: 3em;
+  width: 3em;
+}
+
+#work_time {
+  font-size: 4em;
+}
+
+.vertical-align {
+  display: flex;
+  align-items: center;
+}
