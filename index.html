@@ -15,15 +15,15 @@
 <main class="container">
   <section id="controls">
     <div class="row">
-      <div class="col-sm-4 col-sm-offset-2 col-lg-3 col-lg-offset-3 text-center">
+      <div class="col-sm-4 col-sm-offset-2 text-center">
         <button id="single" class="btn btn-primary btn-block" type="button">Simple Pomodoro Cycle</button>
       </div>
-      <div class="col-sm-4 col-lg-3 text-center">
+      <div class="col-sm-4 text-center">
         <button id="double" class="btn btn-default btn-block" type="button">Double Pomodoro Cycle</button>
       </div>
     </div>
     <div class="row">
-      <div class="col-xs-6 text-center">
+      <div class="col-xs-6 col-sm-4 col-sm-offset-2 text-center">
         <h2>Work Cycle Time</h2>
         <div class="configurator vertical-align">
           <button id="w_minus" class="btn btn-default rdBtn" type="button"><i class="fa fa-minus"></i>
@@ -32,7 +32,7 @@
           <button id="w_plus" class="btn btn-default rdBtn" type="button"><i class="fa fa-plus"></i></button>
         </div>
       </div>
-      <div class="col-xs-6 text-center">
+      <div class="col-xs-6 col-sm-4 text-center">
         <h2>Rest Time</h2>
         <div class="configurator vertical-align">
           <button id="r_minus" class="btn btn-default rdBtn" type="button"><i class="fa fa-minus"></i>
@@ -43,6 +43,13 @@
       </div>
     </div>
   </section>
+  <section id="clock">
+    <canvas>
+      Your browser unfortunately doesn't support the canvas element.
+      Please update your browser to anything that isn't 10 years old.
+    </canvas>
+  </section>
+  <!--TODO{Lars} Add footer-->
 </main>
 <script src="https://code.jquery.com/jquery-2.2.4.js"></script>
 <script src="js/func.js"></script>
