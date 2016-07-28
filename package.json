@@ -2,23 +2,26 @@
   "name": "tomato",
   "version": "1.0.0",
   "description": "",
-  "main": "index.html",
-  "dependencies": {
-    "bootstrap": "^3.3.6",
-    "webpack": "^1.13.1"
+  "main": "webpack.config.js",
+  "dependencies": {  },
+  "devDependencies": {
+    "babel-core": "^6.11.4",
+    "babel-loader": "^6.2.4",
+    "babel-plugin-transform-class-properties": "^6.11.5",
+    "babel-plugin-transform-decorators-legacy": "^1.3.4",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-stage-0": "^6.5.0",
+    "webpack": "^1.13.1",
+    "webpack-dev-server": "^1.14.1"
   },
-  "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack-dev-server --content-base dist --inline --hot"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/LarsCastle/tomato.git"
   },
   "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/LarsCastle/tomato/issues"
-  },
-  "homepage": "https://github.com/LarsCastle/tomato#readme"
+  "license": "ISC"
 }
