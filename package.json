@@ -1,0 +1,24 @@
+{
+  "name": "tomato",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "dependencies": {
+    "bootstrap": "^3.3.6",
+    "webpack": "^1.13.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LarsCastle/tomato.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LarsCastle/tomato/issues"
+  },
+  "homepage": "https://github.com/LarsCastle/tomato#readme"
+}

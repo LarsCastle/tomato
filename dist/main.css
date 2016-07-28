@@ -1,0 +1,62 @@
+/* general styling */
+
+/* TODO{Lars} Add nice background styling
+   TODO{Lars} Style btn elements better */
+
+#controls > .row {
+  margin-top: 10px;
+}
+
+.configurator {
+  width: 100%;
+  padding: 0 10px;
+}
+.configurator button {
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+.configurator span {
+  text-align: center;
+  font-size: 4em;
+}
+
+.vertical-align {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* controls */
+.rdBtn {
+  border-width: 1px;
+  border-radius: 3em;
+  height: 3em;
+  width: 3em;
+}
+
+/* canvas styling */
+canvas {
+  background-color: #f7f7f7;
+  width: 400px;
+  height: 200px;
+  display: block;
+  margin: 20px auto;
+  display: none;
+}
+
+#output {
+  font-size: 3em;
+}
+
+#output:hover {
+  cursor: pointer;
+}
+
+.work-output {
+  color: indigo;
+}
+
+.rest-output {
+  color: green;
+}
